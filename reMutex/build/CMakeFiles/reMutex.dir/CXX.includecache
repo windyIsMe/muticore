@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/laiwd3/桌面/reMutex/src/RecursiveMutex.hpp
+pthread.h
+-
+
+/home/laiwd3/桌面/reMutex/src/main.cpp
+iostream
+-
+RecursiveMutex.hpp
+/home/laiwd3/桌面/reMutex/src/RecursiveMutex.hpp
+pthread.h
+-
+unistd.h
+-
+
